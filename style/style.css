@@ -37,8 +37,63 @@ body {
 .quote-buttons {
 	display: flex;
 	justify-content: space-between;
-	border: 10px green solid;
 }
+
+
+.quote-buttons .btn{
+
+
+
+}
+
+
+
+
+/*Style up the font awesome icons*/
+
+.fa-brands {
+	padding: 0;
+	margin: 0;
+	font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
