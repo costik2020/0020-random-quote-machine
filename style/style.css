@@ -1,7 +1,9 @@
 
 * {
-	border: 3px solid red ;
+/*	border: 3px solid red ; */
 }
+
+
 
 
 
@@ -12,15 +14,14 @@ h1 {
 
 body {
 	background-color: gray;
-	border: 10px black solid;
 	height: 100vh;
 }
 
 
 #quote-box {
-	border: 10px black solid;
-	width: 300px;
-	height: 200px;
+	/*width: 300px;
+	height: 200px;*/
+	max-width: 600px;
 
 	/*margin: 0 auto;
 	margin:50vh auto; */
@@ -29,11 +30,15 @@ body {
 
 
 #fcc_test_suite_wrapper {
-	border: 1px green solid;
+	/*	border: 1px green solid;*/
 }
 
 
-
+.quote-buttons {
+	display: flex;
+	justify-content: space-between;
+	border: 10px green solid;
+}
 
 
 

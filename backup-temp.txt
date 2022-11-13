@@ -1,0 +1,15 @@
+
+
+
+
+
+-------------------------------------------------------------------
+
+<div id="quote-box"  >
+		<p id="text">It does not matter how slowly you go as long as you do not stop.</p>
+		<div id="author">-Confucius</div>
+		<button id="new-quote" class="btn btn-primary" >New quote</button>
+		<a id="tweet-quote" href="twitter.com/intent/tweet">Twiter</a>
+		<a href="">foo</a>
+
+	</div>

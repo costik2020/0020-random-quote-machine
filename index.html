@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="fontawesome/fontawesome-free-6.2.0-web/css/all.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 	<script defer src="jquery/jquery-3.6.1.js"></script>
 	
@@ -17,19 +18,31 @@
 </head>
 <body  class="d-flex justify-content-center align-content-center flex-wrap" >
 
-	<div id="quote-box"  >
-		<p id="text">It does not matter how slowly you go as long as you do not stop.</p>
-		<div id="author">-Confucius</div>
-		<button id="new-quote" class="btn btn-primary" >New quote</button>
-		<a id="tweet-quote" href="twitter.com/intent/tweet">Twiter</a>
-		<a href="">foo</a>
+	  <div id="quote-box" class="card p-3 text-right">
+		<blockquote class="blockquote mb-0">
+		  <p id="text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+		  <footer class="blockquote-footer">
+			<small class="text-muted">
+			  Someone famous in <cite id="author" title="Source Title">Source Title</cite>
+			</small>
+			
 
-	</div>
+			<div class="quote-buttons">
+				<div>
+					<a id="tweet-quote" href="twitter.com/intent/tweet"class="btn btn-primary"><i class="fa-brands fa-twitter"></i>  </a>
+					<a href=""class="btn btn-primary">foo</a>	
+				</div>
+				<button id="new-quote" class="btn btn-primary" >New quote</button>
+				
+			</div>
+
+		  </footer>
+		</blockquote>
+	  </div>
+
+
 </body>
 </html>
-
-
-
 
 
 
